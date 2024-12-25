@@ -1,0 +1,33 @@
+Test Cases for FanSpeedController
+
+Scenario 1: High Temperature, High Humidity
+Enter a temperature value: 90
+Enter a humidity value: 80
+
+Fan speed: 81.43%
+
+
+Scenario 2: Medium Temperature, Medium Humidity
+Enter a temperature value: 50
+Enter a humidity value: 50
+
+Fan speed: 50.00%
+
+Scenario 3: Low Temperature, Low Humidity
+Enter a temperature value: 20
+Enter a humidity value: 20
+
+Fan speed: 18.57%
+
+
+Scenario 4: High Temperature, Low Humidity
+Enter a temperature value: 85
+Enter a humidity value: 25
+
+Fan speed: 19.44%
+
+Scenario 5: Low Temperature, High Humidity
+Enter a temperature value: 15
+Enter a humidity value: 90
+
+Fan speed: 17.82%
